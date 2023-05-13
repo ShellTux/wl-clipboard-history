@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-clipboard_file="$HOME/.clipboard.sqlite"
+clipboard_file="$HOME/.cache/clipboard.sqlite"
 clipboard_ignore_file="$HOME/.config/wl-clipboard-history/ignore"
 
 query () {
